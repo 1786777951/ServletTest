@@ -8,8 +8,8 @@ import java.util.Date;
 public class Hello extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response){
         try{
-            response.getWriter().println("SSSSS");
-            response.getWriter().println(new Date().toLocaleString());
+            response.getWriter().println("SSSSSS");
+//            response.getWriter().println(new Date().toLocaleString());
         }catch(Exception e){
             e.printStackTrace();
         }
